@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200&family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --primercolor: #8ca8fd;
+    --segundocolor: #C2D1FF;
+    --tercercolor: #444444;
+    --cuartocolor: #E5EFFF;
+    --quintocolor: #333333;
+}
+
+
+.card-img-top {
+ 
+ background-color: var(--segundocolor)
+
+}
+
+
+.carousel-inner {
+
+  width: 50px; /* Ancho reducido de la tarjeta */
+  margin: 50px; /* Margen alrededor de cada tarjeta */
+
+
+}
+
+
+
+
+
+
+.card-container {
+  display: flex;
+  gap: 20px; /* Ajusta este valor según el espacio deseado entre las tarjetas */
+
+  gap: 200px; /* Espacio entre las tarjetas */
+
+}
+
+
+
+.card {
+  margin: 20px; /* Margen alrededor de cada tarjeta */
+}
+
+
+
+body {
+    background-color: var(--primercolor);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+
+.encabezado {
+ 
+  z-index: 1000; 
+}
+
+main {
+  margin-top: 60px; 
+  padding: 20px; 
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(140,168,253,1) 100%);
+}
+
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--segundocolor);
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.nav-link {
+    padding: 5px;
+    font-size: 16px;
+    width: max-content;
+    margin: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--cuartocolor);
+}
+
+.nav-link:hover {
+    background-color: var(--segundocolor);
+    transition: 1s;
+}
+
+.head img {
+    height: 50px;
+    padding: 0 40px;
+}
+
+main {
+    margin-bottom: 50px;
+    background-color: var(--primercolor);
+}
+
+.container {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+.footer {
+    padding: 5px;
+    width: 100%;
+    height: 80px;
+    background-color: var(--quintocolor);
+    position: fixed;
+    bottom: 0;
+  
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bott img {
+    height: 50px;
+    padding: 0 40px;
+    margin: 8px auto;
+}
+
+.redsocial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.redsocial a {
+    color: var(--segundocolor);
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.redsocial a:hover {
+    background-color: var(--segundocolor);
+    transition: 1s;
+    color: var(--cuartocolor);
+    text-decoration: none;
+}
+
+.carousel-item img {
+    display: block;
+    margin: auto;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2980b9;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.highlight {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #f2f2f2;
+}
+
+.navbar-nav .nav-link {
+    color: #333333;
+}
+
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.redsocial a {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.ofrecemos {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#carouselExample {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#carouselExample .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
