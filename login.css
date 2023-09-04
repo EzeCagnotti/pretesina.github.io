@@ -1,0 +1,243 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-image: url("local/local-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  
+  
+  
+  /*Estilos para el encabezado*/
+	.header{
+		width: 100%;
+		height: 100px;
+		position: fixed;
+		top: 0;left: 0;
+	}
+	.container-1{
+		width: 90%;
+		max-width: 1200px;
+		margin: auto;
+	}
+	.container-1 .btn-menu {
+		float: left;
+		line-height:100px;
+	}
+	.container-1 .btn-menu label{
+		color: #fff;
+		font-size: 25px;
+		cursor: pointer;
+	}
+
+	.container-1 .menu{
+		float: right;
+		line-height: 100px;
+	}
+	.container-1 .menu a{
+		display: inline-block;
+		padding: 15px;
+		line-height: normal;
+		text-decoration: none;
+		color: #fff;
+		transition: all 0.3s ease;
+		border-bottom: 2px solid transparent;
+		font-size: 15px;
+		margin-right: 5px;
+	}
+	.container .menu a:hover{
+		border-bottom: 2px solid #c7c7c7;
+		padding-bottom: 5px;
+	}
+	/*Fin de Estilos para el encabezado*/
+
+	/*Menù lateral*/
+	#btn-menu{
+		display: none;
+	}
+	.container-menu{
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		width: 100%;
+		height: 100vh;
+		top: 0;left: 0;
+		transition: all 500ms ease;
+		opacity: 0;
+		visibility: hidden;
+		z-index: 1;
+	}
+	#btn-menu:checked ~ .container-menu{
+		opacity: 1;
+		visibility: visible;
+	}
+	.cont-menu{
+		width: 100%;
+		max-width: 250px;
+		background: #3b4ea2;
+		height: 100vh;
+		position: relative;
+		transition: all 500ms ease;
+		transform: translateX(-100%);
+	}
+	#btn-menu:checked ~ .container-menu .cont-menu{
+		transform: translateX(0%);
+	}
+	.cont-menu nav{
+		transform: translateY(15%);
+	}
+	.cont-menu nav a{
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		color: #c7c7c7;
+		border-left: 5px solid transparent;
+		transition: all 400ms ease;
+	}
+	.cont-menu nav a:hover{
+		color: black;
+		border-left: 5px solid #ffffff;
+		background: #ffe8ae;
+	}
+	.cont-menu label{
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 18px;
+	}
+	/*Fin de Menù lateral*/
+  
+  .head img {
+      height: 50px;
+      padding: 0 40px;
+      
+  }
+
+  .footer {
+    padding: 5px;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+.redsocial {
+    display: flex;
+    align-items: center;
+}
+
+.redsocial a {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.redsocial a:hover {
+    color: red;
+    transition: 1s;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-container {
+    background-color: #fff;
+    width: 300px;
+    margin: 100px auto;
+    margin-top: 180px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.login-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.exito {
+    color: green;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* Estilos para el botón "Volver al Inicio" */
+#volverInicio {
+text-align: center;
+width: 260px;
+}
